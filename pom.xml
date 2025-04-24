@@ -10,7 +10,7 @@
     <description>JSF with Java EE 7 Version of Spring Petclinic. Runs on JBoss Wildfly.</description>
     <url>https://jakarta-ee-petclinic.github.io/javaee7-petclinic/</url>
     <inceptionYear>2014</inceptionYear>
-
+    mvn clean install wildfly:deploy
     <properties>
         <java.version>1.8</java.version>
         <version.maven>3.6.3</version.maven>
